@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="login1.css">
+<link rel="stylesheet" type="text/css" href="assets/css/login1.css">
 <div class="header">
 <h1>Medical Store Management System</h1>
  <p style="margin-top:-20px;line-height:1;font-size:30px;">A Database Management Systems Project</p>

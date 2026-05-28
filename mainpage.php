@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="login1.css">
+<link rel="stylesheet" type="text/css" href="assets/css/login1.css">
 <head>
 <div class="header">
   <h1>Medical Store Management System</h1>

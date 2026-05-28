@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="nav2.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/nav2.css">
 	<title>
 		Admin Dashboard
 	</title>
@@ -73,23 +73,23 @@
 	</center>
 
 	<a href="pos1.php" title="Add New Sale">
-		<img src="carticon1.png" style="padding:8px;margin-left:450px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
+		<img src="assets/img/carticon1.png" style="padding:8px;margin-left:450px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
 	</a>
 
 	<a href="inventory-view.php" title="View Inventory">
-		<img src="inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
+		<img src="assets/img/inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
 	</a>
 
 	<a href="employee-view.php" title="View Employees">
-		<img src="emp.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Employees List">
+		<img src="assets/img/emp.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Employees List">
 	</a>
 	<br>
 	<a href="salesreport.php" title="View Transactions">
-		<img src="moneyicon.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Transactions List">
+		<img src="assets/img/moneyicon.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Transactions List">
 	</a>
 
 	<a href="stockreport.php" title="Low Stock Alert">
-		<img src="alert.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Low Stock Report">
+		<img src="assets/img/alert.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Low Stock Report">
 	</a>
 
 

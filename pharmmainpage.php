@@ -2,8 +2,8 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="table1.css">
-	<link rel="stylesheet" type="text/css" href="nav2.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/table1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/nav2.css">
 	<title>
 		Pharmacist Dashboard
 	</title>
@@ -56,11 +56,11 @@
 	</center>
 
 	<a href="pharm-pos1.php" title="Add New Sale">
-		<img src="carticon1.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
+		<img src="assets/img/carticon1.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
 	</a>
 
 	<a href="pharm-inventory.php" title="View Inventory">
-		<img src="inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
+		<img src="assets/img/inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
 	</a>
 
 </body>

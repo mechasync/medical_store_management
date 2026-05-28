@@ -3,9 +3,9 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="nav2.css">
-	<link rel="stylesheet" type="text/css" href="table1.css">
-	<link rel="stylesheet" type="text/css" href="form3.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/nav2.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/table1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/form3.css">
 	<title>
 		Reports
 	</title>

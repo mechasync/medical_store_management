@@ -1,6 +1,6 @@
 body{
 	font-family:Arial;
-	background-image:url("pharm1.png");
+	background-image:url("../img/pharm1.png");
 	background-size:cover;
 	overflow:hidden;
 }
@@ -76,3 +76,4 @@ input[type=submit]{
   display:inline-block;
   margin-top:5px;
 }
+

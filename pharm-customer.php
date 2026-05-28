@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="table1.css">
-<link rel="stylesheet" type="text/css" href="nav2.css">
-<link rel="stylesheet" type="text/css" href="form4.css">
+<link rel="stylesheet" type="text/css" href="assets/css/table1.css">
+<link rel="stylesheet" type="text/css" href="assets/css/nav2.css">
+<link rel="stylesheet" type="text/css" href="assets/css/form4.css">
 
 <style>
 	body {

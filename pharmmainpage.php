@@ -21,14 +21,14 @@
 		<p style="margin-top:-20px;color:white;line-height:1;font-size:12px;text-align:center">Developed by, Harsh</p>
 		<a href="pharmmainpage.php">Dashboard</a>
 
-		<a href="pharm-inventory.php">View Inventory</a>
-		<a href="pharm-pos1.php">Add New Sale</a>
+		<a href="inventory/pharm-inventory.php">View Inventory</a>
+		<a href="pos/pharm-pos1.php">Add New Sale</a>
 		<button class="dropdown-btn">Customers
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="pharm-customer.php">Add New Customer</a>
-			<a href="pharm-customer-view.php">View Customers</a>
+			<a href="customers/pharm-customer.php">Add New Customer</a>
+			<a href="customers/pharm-customer-view.php">View Customers</a>
 		</div>
 	</div>
 
@@ -46,7 +46,7 @@
 	?>
 
 	<div class="topnav">
-		<a href="logout1.php">Logout(signed in as <?php echo $ename; ?>)</a>
+		<a href="utilities/logout1.php">Logout(signed in as <?php echo $ename; ?>)</a>
 	</div>
 
 	<center>
@@ -55,11 +55,11 @@
 		</div>
 	</center>
 
-	<a href="pharm-pos1.php" title="Add New Sale">
+	<a href="pos/pharm-pos1.php" title="Add New Sale">
 		<img src="assets/img/carticon1.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
 	</a>
 
-	<a href="pharm-inventory.php" title="View Inventory">
+	<a href="inventory/pharm-inventory.php" title="View Inventory">
 		<img src="assets/img/inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
 	</a>
 

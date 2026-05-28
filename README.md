@@ -2,6 +2,10 @@
 
 A comprehensive web-based management system for medical stores and pharmacies, designed to streamline operations including inventory management, sales, customer relations, and reporting.
 
+> 🚀 **NEW & READY**: Project has been completely restructured and organized. All paths are corrected and working!  
+> 📖 **Start Here**: Read [SETUP_GUIDE.md](SETUP_GUIDE.md) for quick start instructions  
+> ✅ **View Status**: Check [COMPLETION_REPORT.md](COMPLETION_REPORT.md) for detailed restructuring details
+
 ## 🎯 Features
 
 ### Core Functionality

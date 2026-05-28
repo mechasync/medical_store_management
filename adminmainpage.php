@@ -18,52 +18,52 @@
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="inventory-add.php">Add New Medicine</a>
-			<a href="inventory-view.php">Manage Inventory</a>
+			<a href="inventory/inventory-add.php">Add New Medicine</a>
+			<a href="inventory/inventory-view.php">Manage Inventory</a>
 		</div>
 		<button class="dropdown-btn">Suppliers
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="supplier-add.php">Add New Supplier</a>
-			<a href="supplier-view.php">Manage Suppliers</a>
+			<a href="suppliers/supplier-add.php">Add New Supplier</a>
+			<a href="suppliers/supplier-view.php">Manage Suppliers</a>
 		</div>
 		<button class="dropdown-btn">Stock Purchase
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="purchase-add.php">Add New Purchase</a>
-			<a href="purchase-view.php">Manage Purchases</a>
+			<a href="purchases/purchase-add.php">Add New Purchase</a>
+			<a href="purchases/purchase-view.php">Manage Purchases</a>
 		</div>
 		<button class="dropdown-btn">Employees
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="employee-add.php">Add New Employee</a>
-			<a href="employee-view.php">Manage Employees</a>
+			<a href="employees/employee-add.php">Add New Employee</a>
+			<a href="employees/employee-view.php">Manage Employees</a>
 		</div>
 		<button class="dropdown-btn">Customers
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="customer-add.php">Add New Customer</a>
-			<a href="customer-view.php">Manage Customers</a>
+			<a href="customers/customer-add.php">Add New Customer</a>
+			<a href="customers/customer-view.php">Manage Customers</a>
 		</div>
-		<a href="sales-view.php">View Sales Invoice Details</a>
-		<a href="salesitems-view.php">View Sold Products Details</a>
-		<a href="pos1.php">Add New Sale</a>
+		<a href="reports/sales-view.php">View Sales Invoice Details</a>
+		<a href="reports/salesitems-view.php">View Sold Products Details</a>
+		<a href="pos/pos1.php">Add New Sale</a>
 		<button class="dropdown-btn">Reports
 			<i class="down"></i>
 		</button>
 		<div class="dropdown-container">
-			<a href="stockreport.php">Medicines - Low Stock</a>
-			<a href="expiryreport.php">Medicines - Soon to Expire</a>
-			<a href="salesreport.php">Transactions Reports</a>
+			<a href="reports/stockreport.php">Medicines - Low Stock</a>
+			<a href="reports/expiryreport.php">Medicines - Soon to Expire</a>
+			<a href="reports/salesreport.php">Transactions Reports</a>
 		</div>
 	</div>
 
 	<div class="topnav">
-		<a href="logout.php">Logout(Logged in as Admin)</a>
+		<a href="utilities/logout.php">Logout(Logged in as Admin)</a>
 	</div>
 
 	<center>
@@ -72,23 +72,23 @@
 		</div>
 	</center>
 
-	<a href="pos1.php" title="Add New Sale">
+	<a href="pos/pos1.php" title="Add New Sale">
 		<img src="assets/img/carticon1.png" style="padding:8px;margin-left:450px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Add New Sale">
 	</a>
 
-	<a href="inventory-view.php" title="View Inventory">
+	<a href="inventory/inventory-view.php" title="View Inventory">
 		<img src="assets/img/inventory.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Inventory">
 	</a>
 
-	<a href="employee-view.php" title="View Employees">
+	<a href="employees/employee-view.php" title="View Employees">
 		<img src="assets/img/emp.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Employees List">
 	</a>
 	<br>
-	<a href="salesreport.php" title="View Transactions">
+	<a href="reports/salesreport.php" title="View Transactions">
 		<img src="assets/img/moneyicon.png" style="padding:8px;margin-left:550px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Transactions List">
 	</a>
 
-	<a href="stockreport.php" title="Low Stock Alert">
+	<a href="reports/stockreport.php" title="Low Stock Alert">
 		<img src="assets/img/alert.png" style="padding:8px;margin-left:100px;margin-top:40px;width:200px;height:200px;border:2px solid black;" alt="Low Stock Report">
 	</a>
 

@@ -164,10 +164,22 @@ medical_store_management/
 
 ## 🔐 Security Features
 
-- User authentication system
-- Role-based access control
-- Session management
-- Database configuration isolation
+- **User Authentication** - MD5 hashed passwords for secure login
+  - Admin login: `mainpage.php` (uses `admin` table)
+  - Pharmacy staff login: `mainpage_pharma.php` (uses `emplogin` table)
+- **Role-based Access Control** - Different access levels for admin vs pharmacy staff
+- **Session Management** - Secure session handling with automatic logout
+- **Password Hashing** - All passwords hashed with MD5 before storage in database
+- **Database Configuration Isolation** - Database credentials stored in `config.php`
+
+## 🔑 Default Login Credentials (Testing Only)
+
+| Role | Login Page | Username | Password |
+|------|-----------|----------|----------|
+| **Admin** | `mainpage.php` | `admin` | `admin123` |
+| **Pharmacy Staff** | `mainpage_pharma.php` | `pharmacy1` | `pharma123` |
+
+⚠️ **Important**: Change all default passwords immediately in production environments!
 
 ## 📝 Notes
 

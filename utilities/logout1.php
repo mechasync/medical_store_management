@@ -3,6 +3,6 @@
 	session_start();
 	unset($_SESSION["user"]);
 	 if(session_destroy()) {
-	header("location:../mainpage1.php");
+	header("location:../mainpage_pharma.php");
 	}
 ?>

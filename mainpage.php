@@ -40,14 +40,16 @@ Medical Store Management System
 
 				$uname = mysqli_real_escape_string($conn,$_POST['uname']);
 				$password = mysqli_real_escape_string($conn,$_POST['pwd']);
+				$password = md5($password);
 
 			if ($uname != "" && $password != ""){
 		
-					$sql="SELECT * FROM admin WHERE a_username='$uname' AND a_password='$password'";
+					$sql="SELECT id FROM admin WHERE a_username='$uname' AND a_password='$password'";
 					$result = $conn->query($sql);
+
 					$row = $result->fetch_row();
 					if(!$row) {
-						echo "<p style='color:red;'>Invalid username or password!</p>";
+						echo "<script>alert('Invalid username or password!');</script>";
 					}
 					else {
 						session_start();
@@ -59,7 +61,7 @@ Medical Store Management System
 				
 		if(isset($_POST['psubmit']))
 		{
-			header("location:mainpage1.php");
+			header("location:mainpage_pharma.php");
 		}
 	?>
 			

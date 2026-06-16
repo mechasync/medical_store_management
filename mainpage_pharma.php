@@ -41,6 +41,7 @@ Pharmacia
 
 			$uname = mysqli_real_escape_string($conn,$_POST['uname']);
 			$password = mysqli_real_escape_string($conn,$_POST['pwd']);
+			$password = md5($password);
 
 			if ($uname != "" && $password != ""){
 

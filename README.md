@@ -192,6 +192,4 @@ medical_store_management/
 
 For issues, questions, or contributions, please contact the development team.
 
-## 📄 License
 
-[Add your license information here]" 
